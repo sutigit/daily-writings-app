@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "daily-writings-app"
+version = "0.1.0"
+description = ""
+authors = ["sutigit <panyanilben@gmail.com>"]
+readme = "README.md"
+packages = [{include = "daily_writings_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+invoke = "^1.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
