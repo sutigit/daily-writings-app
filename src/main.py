@@ -2,7 +2,7 @@
 import sys
 from datetime import date
 
-from config import PATH, EDITOR
+from config.config import PATH, EDITOR
 
 # if PATH is None and EDITOR is None:
 #     print("First time using?")
