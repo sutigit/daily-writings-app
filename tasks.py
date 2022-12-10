@@ -6,4 +6,4 @@ def start(ctx):
 
 @task
 def config(ctx):
-    ctx.run("gedit src/config.py", pty=True)
+    ctx.run("gedit src/config/config.py", pty=True)

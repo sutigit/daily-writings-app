@@ -20,5 +20,3 @@ from config.config import PATH, EDITOR
 # dd/mm/YY
 today = date.today().strftime("%d/%m/%Y")
 print(PATH, EDITOR)
-
-print("shiiiit")
