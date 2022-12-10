@@ -5,9 +5,6 @@ This App generates a new diary page everytime you invoke the app. The blank page
 ## Python version
 Check your python version. This app has been tested on python3 version 3.8^
 
-## Documentation
-[Features](https://github.com/sutigit/daily-writings-app/blob/main/documentation/features.md)
-
 ## Running the app
 Download the app and extract
 
