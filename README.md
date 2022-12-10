@@ -26,6 +26,17 @@ Run
 poetry install
 ```
 
+Go to config/config.py and give terminal command to your text editor and outputh path for your diary files.
+```
+# Choose your main editor to open the diary pages
+# example "nano" for nano editor or "code" for vscode
+EDITOR = "example"
+
+# Choose your directory to where to create diary templates
+PATH = "/home/example/directory"
+```
+
+
 Run
 ```
 poetry run invoke start
