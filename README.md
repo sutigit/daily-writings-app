@@ -30,3 +30,8 @@ Run
 ```
 poetry run invoke start
 ```
+
+## Usage
+I recommend to have an alias for starting the app. 
+Example command: "cd %PATH%/App && poetry run invoke start"
+
