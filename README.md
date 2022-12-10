@@ -1,4 +1,4 @@
-# Daily writes
+# App
 
 This App generates a new diary page everytime you invoke the app. The blank page is an markdown file with only the current date as the headline. If there already exists a file with the current date, the app will open that file. Otherwise the app will generate a new file with new current date on the next day.
 
