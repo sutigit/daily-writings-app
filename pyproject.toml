@@ -4,12 +4,14 @@ version = "0.1.0"
 description = ""
 authors = ["sutigit <panyanilben@gmail.com>"]
 readme = "README.md"
-packages = [{include = "daily_writings_app"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 invoke = "^1.7.3"
 
+[tool.poetry.scripts]
+daily-writings-app = "src.main:main"
 
 [build-system]
 requires = ["poetry-core"]
