@@ -10,6 +10,8 @@ packages = [{include = "daily_writings_app"}]
 python = "^3.10"
 invoke = "^1.7.3"
 
+[tool.poetry.scripts]
+daily-writings-app = "src.main:main"
 
 [build-system]
 requires = ["poetry-core"]
