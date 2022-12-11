@@ -24,8 +24,10 @@ else:
     full_path = f"{PATH}/{today}.md"
     if os.path.isfile(full_path):
         print(f"Opening {today}.md in {EDITOR}")
-        os.system(f"gedit {full_path}")
+        os.system(f"{EDITOR} {full_path}")
     else:    
         with open(full_path, mode="w", encoding="utf-8") as outfile:
             outfile.write(f"# {today}")
             outfile.write("")
+
+        os.system(f"{EDITOR} {full_path}")
